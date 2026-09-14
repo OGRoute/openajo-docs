@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Bug in the web app, SDK or indexer
+    url: https://github.com/OGRoute/openajo-app/issues/new/choose
+    about: Code bugs belong in openajo-app.
+  - name: Bug in the circle or reputation contracts
+    url: https://github.com/OGRoute/openajo-contract/issues/new/choose
+    about: Contract bugs belong in openajo-contract.
+  - name: Report a security vulnerability
+    url: https://github.com/OGRoute/openajo-contract/security/advisories/new
+    about: OpenAjo escrows funds. Report vulnerabilities privately, never in a public issue.

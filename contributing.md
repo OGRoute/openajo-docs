@@ -69,6 +69,10 @@ Conventional format: `type(scope): description`.
 
 One logical unit per commit.
 
+## Code of conduct
+
+Everyone taking part in OpenAjo repositories is expected to follow the [Code of Conduct](https://github.com/OGRoute/openajo-docs/blob/main/CODE_OF_CONDUCT.md), based on the Contributor Covenant 2.1.
+
 ## Security
 
 Do not open public issues for vulnerabilities. Use GitHub's private vulnerability reporting on the affected repository. OpenAjo escrows funds — auth bypasses, settlement manipulation, and anything that strands or leaks escrowed value are the highest-priority findings.

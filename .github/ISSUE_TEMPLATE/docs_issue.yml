@@ -1,0 +1,31 @@
+name: Documentation problem
+description: Something is wrong, missing, outdated or hard to understand.
+labels: ["documentation"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Link to the page on ogroute.gitbook.io or the file path in this repo.
+      placeholder: guides/join-and-contribute.md
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of problem
+      options:
+        - Incorrect (does not match how the contract or app behaves)
+        - Missing information
+        - Broken link or image
+        - Hard to understand
+        - Translation
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Quote the text that is wrong and say what it should say, if you know.
+    validations:
+      required: true
