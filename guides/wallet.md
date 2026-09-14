@@ -19,6 +19,8 @@ A new Stellar account needs a small XLM balance to exist. On testnet, fund it fo
 
 Your account now holds 10,000 test XLM. That is play money with no real value — it exists so you can try the full flow.
 
+One XLM is divided into 10,000,000 stroops, the smallest unit of XLM. Transaction fees and other values on Stellar are often measured in stroops.
+
 ## 4. Connect
 
 Open the OpenAjo web app and click **Connect wallet**. Freighter asks for permission the first time; approve it. Your address appears in the top bar. You are ready to [start](start-a-circle.md) or [join](join-and-contribute.md) a circle.
