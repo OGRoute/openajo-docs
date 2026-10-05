@@ -45,7 +45,7 @@ Set `START_LEDGER` to a ledger within RPC's ~7-day event retention window, other
 git clone https://github.com/OGRoute/openajo-contract
 cd openajo-contract
 rustup target add wasm32v1-none
-cargo test                                    # 19 tests
+cargo test                                    # 30 tests
 cargo build --target wasm32v1-none --release
 ```
 
