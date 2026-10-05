@@ -27,6 +27,8 @@ const config: OpenAjoConfig = {
 
 `readSource` is only used to build simulation transactions. No secret is involved and nothing is submitted.
 
+The first call made with a config checks its shape and throws `ConfigError` for a malformed contract id, two identical contract ids, a `readSource` that is not an account id, or an `rpcUrl` that is not http(s). Call `validateConfig(config)` yourself at boot if you would rather fail there than on the first read. Write calls additionally apply `create_circle`'s own guards — contribution above zero, deposit not negative, at least two members, period at least an hour — so an invalid form value fails before the wallet prompt rather than after it.
+
 ## Reads
 
 Reads run as RPC simulations — free, instant, no signature.
