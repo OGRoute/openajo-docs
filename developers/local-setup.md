@@ -4,7 +4,7 @@ You do not need every toolchain. Pick by what you are working on.
 
 | Working on | You need |
 | --- | --- |
-| Web app, SDK, API routes | **Node 20+** only |
+| Web app, SDK, API routes | **Node 22** only (Next 16 needs 20.9 or newer; CI runs 22) |
 | The Soroban contracts | Node + **Rust** + `wasm32v1-none` + **Stellar CLI** |
 | The indexer | Node + **Postgres** |
 

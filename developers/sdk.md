@@ -59,6 +59,27 @@ try {
 }
 ```
 
+Error codes are scoped to the contract that raised them, and the two contracts
+number their errors independently — code 3 is `NotFound` on `circle` but
+`NotAdmin` on `reputation`. The SDK decodes each call against the right map, so
+compare `e.code` to the enum for the contract you called:
+
+```ts
+import { ReputationError } from "@openajo/sdk";
+
+try {
+  await getReputation(config, addr);
+} catch (e) {
+  if (e instanceof ContractCallError && e.code === ReputationError.NotAdmin) {
+    // not "that circle doesn't exist"
+  }
+}
+```
+
+Writes decode the same way: a rejected simulation inside `prepareTransaction`
+throws a `ContractCallError`, not a raw host error, so one error path covers
+reads and writes.
+
 ## Writes
 
 Writes take a `SignFn` — the SDK never handles keys.

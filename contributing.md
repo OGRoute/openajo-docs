@@ -37,7 +37,7 @@ cargo test
 cargo build --target wasm32v1-none --release
 ```
 
-CI enforces all of these plus secret scanning. A PR that fails CI will not be reviewed until it is green.
+CI enforces all of these, plus a gitleaks scan of full history on both code repos and, on the app repo, `npm audit` over production dependencies — a high or critical advisory fails the build. A PR that fails CI will not be reviewed until it is green.
 
 ## Standards
 
