@@ -28,7 +28,7 @@ Two rules shape this design:
 
 Events tell the indexer **which** circles changed; they are not treated as the source of truth for state.
 
-1. Poll `getEvents` for both contract IDs from the last stored ledger.
+1. Poll `getEvents` for both contract IDs from the last stored ledger, following RPC's cursor until the range is drained — a busy window spans more than one page, and an event left on an unread page would leave its circle's row stale.
 2. Store each raw event, keyed by the RPC event id so re-processing is idempotent.
 3. For every circle touched, re-read `get_circle`, `get_members`, and each `get_member` by simulation and upsert the result.
 
