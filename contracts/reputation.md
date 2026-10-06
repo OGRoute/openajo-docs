@@ -2,7 +2,7 @@
 
 Permanent, cross-circle record of member outcomes. Written only by authorized reporter contracts; read by anyone. Source: [`openajo-contract/contracts/reputation`](https://github.com/OGRoute/openajo-contract/tree/main/contracts/reputation).
 
-**Testnet:** [`CDXPH2PYUTRW7GV57X6CJH3E3JOPROSC23NXPMAXOO3EOBI5UTCB2GTQ`](https://stellar.expert/explorer/testnet/contract/CDXPH2PYUTRW7GV57X6CJH3E3JOPROSC23NXPMAXOO3EOBI5UTCB2GTQ)
+**Testnet:** [`CD465NGKMGF2E6RGGL5DDMG3RZZFDINUR755FH3XRUZLMSQHTEBJWFD6`](https://stellar.expert/explorer/testnet/contract/CD465NGKMGF2E6RGGL5DDMG3RZZFDINUR755FH3XRUZLMSQHTEBJWFD6)
 
 ## Types
 

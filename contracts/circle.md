@@ -2,7 +2,7 @@
 
 The core contract. One deployed instance manages many circles and holds all funds. Source: [`openajo-contract/contracts/circle`](https://github.com/OGRoute/openajo-contract/tree/main/contracts/circle).
 
-**Testnet:** [`CCLVOHGHDH32GWFAMCEMVHLNJSF6ENVHERYWU2OHUYWWLAOKLVR3HGKS`](https://stellar.expert/explorer/testnet/contract/CCLVOHGHDH32GWFAMCEMVHLNJSF6ENVHERYWU2OHUYWWLAOKLVR3HGKS)
+**Testnet:** [`CA6NVGUC5LOZPOR3B266YXCA2TKXF4SH3362S4HRS5RQU53IDIM5F7FU`](https://stellar.expert/explorer/testnet/contract/CA6NVGUC5LOZPOR3B266YXCA2TKXF4SH3362S4HRS5RQU53IDIM5F7FU)
 
 ## Types
 
