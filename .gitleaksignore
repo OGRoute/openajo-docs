@@ -1,0 +1,3 @@
+# Reviewed false positives for the Secret scan job. One gitleaks fingerprint per line, each with a reason.
+# "token" here is a public Stellar contract address (C..., 56 chars) in an example API response, not a credential.
+04136ae23c2b8d312e4e19b3544d11e814a6bd85:developers/api.md:generic-api-key:28
